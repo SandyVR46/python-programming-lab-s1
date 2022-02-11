@@ -29,5 +29,7 @@ obj2.calc_area()
 
 if obj1 < obj2:
     print("Rectangle two is large")
+elif obj2 < obj1:
+    print("Rectangle one is large")
 else:
-    print("Rectangle one is large or these are equal")
+    print("These are equal")
